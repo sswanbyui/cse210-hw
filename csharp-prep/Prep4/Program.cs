@@ -25,7 +25,7 @@ class Program
         }
         if(numbers.Count > 0)
         {
-            average = sum/numbers.Count;
+            average = (double)sum/(double)numbers.Count;
         }
         largest = numbers.Max();
         numbers.Sort();
